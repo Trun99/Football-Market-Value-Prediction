@@ -1,0 +1,14 @@
+ID,Category,Description,Action
+Issue 1,Issue,home/away_club_position 28.5% missing,Ignore — not in model
+Issue 2,Issue,attendance 12.2% missing,Ignore — not in model
+Issue 3,Issue,formation data ~9% missing,Ignore — not in model
+Issue 4,Issue,club_name ~0.1% missing,Ignore — negligible
+Issue 5,Issue,player_assist_id 85.2% missing (normal),Ignore — normal behavior
+Issue 6,Issue,player_in_id 50.6% missing (normal),Ignore — normal behavior
+Issue 7,Issue,own_position 28.5% missing,Ignore — not in model
+Issue 8,Issue,own_manager_name 0.95% missing,Ignore — negligible
+Insight 1,Insight,Home win rate > Away win rate,Document as insight
+Insight 2,Insight,Goals stable ~2.5-3 per match,Document as insight
+Insight 3,Insight,Most goals in 75-90 min,Document as insight
+Insight 4,Insight,Most cards in 80-90 min,Document as insight
+Insight 5,Insight,All 4 files share reliable game_id,Use game_id as join key

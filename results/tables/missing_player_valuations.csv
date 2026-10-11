@@ -1,0 +1,7 @@
+Column,Dtype,Missing Count,Missing %,Unique Values,Status
+player_id,int64,0,0.0,41334,✅ OK
+date,object,0,0.0,5728,✅ OK
+market_value_in_eur,int64,0,0.0,426,✅ OK
+current_club_name,object,0,0.0,8030,✅ OK
+current_club_id,int64,0,0.0,5398,✅ OK
+player_club_domestic_competition_id,object,90678,14.16,32,⚠️  Warning (>10%)

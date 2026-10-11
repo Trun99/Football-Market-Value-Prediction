@@ -1,0 +1,16 @@
+ID,Category,Description,Action
+Issue 1,Issue,goals/assists ~95% zero,Aggregate by player_id
+Issue 2,Issue,Outliers in goals per game,Keep — model handles
+Issue 3,Issue,2 missing player_name,Ignore
+Issue 4,Issue,international_caps 63% missing,Fill with 0
+Issue 5,Issue,agent_name 46% missing,Drop column
+Issue 6,Issue,contract_expiration 34% missing,Drop column
+Issue 7,Issue,market_value 13% missing (TARGET),Drop rows
+Issue 8,Issue,foot 10.7% missing,Fill 'Unknown'
+Issue 9,Issue,height_in_cm 7.7% missing,Fill median
+Issue 10,Issue,competition_id 14% missing,Ignore
+Insight 1,Insight,international_caps strongest predictor,Keep as top feature
+Insight 2,Insight,Consistency > raw stats,"Include total_games, total_minutes"
+Insight 3,Insight,Goals/assists weaker than expected,Still include all stats
+Insight 4,Insight,Market value right-skewed,Log transform for ML
+Insight 5,Insight,Market value inflating over time,Consider year feature in future

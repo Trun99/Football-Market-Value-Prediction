@@ -1,0 +1,14 @@
+Column,Dtype,Missing Count,Missing %,Unique Values,Status
+appearance_id,object,0,0.0,1884051,✅ OK
+game_id,int64,0,0.0,73194,✅ OK
+player_id,int64,0,0.0,28713,✅ OK
+player_club_id,int64,0,0.0,1178,✅ OK
+player_current_club_id,int64,0,0.0,1085,✅ OK
+date,object,0,0.0,4085,✅ OK
+player_name,object,2,0.0,28112,✅ OK
+competition_id,object,0,0.0,44,✅ OK
+yellow_cards,int64,0,0.0,3,✅ OK
+red_cards,int64,0,0.0,2,✅ OK
+goals,int64,0,0.0,7,✅ OK
+assists,int64,0,0.0,7,✅ OK
+minutes_played,int64,0,0.0,123,✅ OK

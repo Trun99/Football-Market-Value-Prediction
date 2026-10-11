@@ -1,0 +1,27 @@
+Column,Dtype,Missing Count,Missing %,Unique Values,Status
+player_id,int64,0,0.0,47669,✅ OK
+first_name,object,3090,6.48,10240,✅ OK
+last_name,object,0,0.0,32440,✅ OK
+name,object,0,0.0,46413,✅ OK
+last_season,int64,0,0.0,14,✅ OK
+current_club_id,int64,0,0.0,1678,✅ OK
+player_code,object,0,0.0,46333,✅ OK
+country_of_birth,object,5164,10.83,202,⚠️  Warning (>10%)
+city_of_birth,object,4888,10.25,11615,⚠️  Warning (>10%)
+country_of_citizenship,object,273,0.57,198,✅ OK
+date_of_birth,object,49,0.1,10185,✅ OK
+sub_position,object,462,0.97,13,✅ OK
+position,object,0,0.0,5,✅ OK
+foot,object,5099,10.7,3,⚠️  Warning (>10%)
+height_in_cm,float64,3666,7.69,56,✅ OK
+contract_expiration_date,object,16386,34.37,238,❌ Critical (>30%)
+agent_name,object,22056,46.27,3839,❌ Critical (>30%)
+image_url,object,0,0.0,39480,✅ OK
+international_caps,float64,30129,63.2,157,❌ Critical (>30%)
+international_goals,float64,30129,63.2,63,❌ Critical (>30%)
+current_national_team_id,float64,45211,94.84,105,❌ Critical (>30%)
+url,object,0,0.0,47669,✅ OK
+current_club_domestic_competition_id,object,2272,4.77,32,✅ OK
+current_club_name,object,2272,4.77,793,✅ OK
+market_value_in_eur,float64,6335,13.29,119,⚠️  Warning (>10%)
+highest_market_value_in_eur,float64,6335,13.29,206,⚠️  Warning (>10%)

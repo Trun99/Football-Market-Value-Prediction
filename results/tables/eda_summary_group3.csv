@@ -1,0 +1,16 @@
+ID,Category,Description,Action
+Issue 1,Issue,country_name 19.4% missing in competitions,Ignore
+Issue 2,Issue,total_clubs 23.9% missing in competitions,Ignore
+Issue 3,Issue,total_market_value 100% missing in clubs,Drop column
+Issue 4,Issue,coach_name 88.7% missing in clubs,Drop column
+Issue 5,Issue,foreigners_percentage 7.3% missing,Fill median if needed
+Issue 6,Issue,coach_name 100% missing in national_teams,Drop column
+Issue 7,Issue,total_market_value 2.5% missing in national_teams,Ignore
+Issue 8,Issue,transfer_fee 35% missing (free transfers),Fill 0 (free transfer)
+Issue 9,Issue,market_value 39% missing in transfers,Ignore (better source available)
+Insight 1,Insight,countries.csv perfectly clean (0 missing),Use as reference
+Insight 2,Insight,Strong correlation: transfer_fee vs market_value,Validates TARGET variable
+Insight 3,Insight,Transfer fees increasing over time,Document as insight
+Insight 4,Insight,FIFA ranking negatively correlated with value,Document as insight
+Insight 5,Insight,UEFA dominates transfer activity,Filter by UEFA for Sentiment Analysis
+Insight 6,Insight,competitions.csv is key lookup table,Merge for league names

@@ -1,0 +1,31 @@
+# Dataset
+data/*
+!data/README.md
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+credentials.json
+secrets.json
+*.key
+
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Models and temporary files
+models/
+*.pkl
+*.joblib
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
